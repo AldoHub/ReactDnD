@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.item {
+  width: 200px;
+  height: auto;
+  -webkit-box-shadow: 0px 10px 17px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 17px -10px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 17px -10px rgba(0,0,0,0.75);
+  display: inline-block;
+  margin: 20px;
+}
+
+ .item img {
+  width: 100%;
+ 
+ }
+
+ .target {
+ 
+   width: 300px;
+   background: #eee;
+   height: 300px;
+   border-radius:10px;
+   text-align: center;
+  overflow: hidden;
+  margin: 40px;
+ }
+ .target p {
+    padding-top: 40px;
+    color: #444;
+    font-size: 4rem;
+ }
